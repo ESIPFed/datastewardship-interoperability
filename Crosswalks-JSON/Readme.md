@@ -1,6 +1,6 @@
 **JSON Crosswalks**
 
-This folder contains SON crosswalks from individual organizational metadata profiles to schema.org.
+This folder contains JSON crosswalks from individual organizational metadata profiles to schema.org.
 
 **File Namning Convention:**
 
