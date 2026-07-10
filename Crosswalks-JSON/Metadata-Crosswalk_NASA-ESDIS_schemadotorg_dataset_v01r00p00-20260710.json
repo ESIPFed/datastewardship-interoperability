@@ -1,0 +1,74 @@
+{
+  "crosswalk": {
+    "source_schema": "NASA-ESDIS",
+    "target_schema": "Schema.org",
+    "target_type": "Dataset",
+    "mappings": [
+      {
+        "source_field": "EntryTitle",
+        "target_field": "name",
+        "description": "Collection title"
+      },
+      {
+        "source_field": "Abstract",
+        "target_field": "description",
+        "description": "Dataset description"
+      },
+      {
+        "source_field": "ShortName",
+        "target_field": "identifier",
+        "description": "Short dataset identifier"
+      },
+      {
+        "source_field": "Version",
+        "target_field": "version"
+      },
+      {
+        "source_field": "DOI.DOI",
+        "target_field": "identifier",
+        "description": "Persistent DOI identifier"
+      },
+      {
+        "source_field": "ScienceKeywords",
+        "target_field": "keywords",
+        "transformation": "extract Keyword values"
+      },
+      {
+        "source_field": "TemporalExtents.RangeDateTimes.BeginningDateTime",
+        "target_field": "temporalCoverage"
+      },
+      {
+        "source_field": "TemporalExtents.RangeDateTimes.EndingDateTime",
+        "target_field": "temporalCoverage"
+      },
+      {
+        "source_field": "SpatialExtent.HorizontalSpatialDomain.Geometry",
+        "target_field": "spatialCoverage"
+      },
+      {
+        "source_field": "CollectionCitations",
+        "target_field": "citation",
+        "description": "Related publications"
+      },
+      {
+        "source_field": "RelatedURLs",
+        "target_field": "distribution",
+        "transformation": "map URLs to DataDownload"
+      },
+      {
+        "source_field": "ContactPersons",
+        "target_field": "creator",
+        "transformation": "map to Person or Organization"
+      },
+      {
+        "source_field": "ArchiveAndDistributionInformation",
+        "target_field": "provider",
+        "description": "Repository or archive"
+      },
+      {
+        "source_field": "UseConstraints",
+        "target_field": "license"
+      },
+    ]
+  }
+}
