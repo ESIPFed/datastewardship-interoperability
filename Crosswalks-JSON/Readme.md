@@ -15,15 +15,10 @@ vVVrRRpPP, where v represents the major version (release), r the revision (minor
 
 *Examples:*
 
-v01r00p00 – Initial release
-
-v01r01p00 – First revision
-
-v01r01p02 – Second patch to Revision 1
-
-v02r00p00 – Second major release
-
-
+* v01r00p00 – Initial release
+* v01r01p00 – First revision
+* v01r01p02 – Second patch to Revision 1
+* v02r00p00 – Second major release
 
 **JSON File Naming Example**
 
