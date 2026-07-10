@@ -9,9 +9,9 @@ This folder contains JSON crosswalks from individual organizational metadata pro
 crosswalkType_sourceSystem_destinationSystem_resourceType_version_creationDate.json
 
 
-**Version Convention:** 
+**Versioning Convention:** 
 
-vVVrRRpPP, where v=Major Version/release, r=Revision (Minor Version), and p=Patch
+vVVrRRpPP, where v=Major Version/release, r=Revision (Minor Version), and p=Patch. VV, RR, and PP are two digits integers, ranging from 01 to 99.
 
 
 **Example**
