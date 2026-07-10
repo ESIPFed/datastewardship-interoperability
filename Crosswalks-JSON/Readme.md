@@ -1,14 +1,18 @@
-**JSON Crosswalks**
+JSON Crosswalks
+===============
 
 This folder contains JSON crosswalks from individual organizational metadata profiles to schema.org.
+
 
 **File Namning Convention:**
 
 crosswalkType_sourceSystem_destinationSystem_resourceType_version_creationDate.json
 
+
 **Version Convention:** 
 
 vVVrRRpPP, where v=Major Version/release, r=Revision (Minor Version), and p=Patch
+
 
 **Example**
 
