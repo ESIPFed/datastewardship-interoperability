@@ -41,9 +41,9 @@ Metadata-Crosswalk_NASA-ESDIS_schemadotorg_dataset_v01r00p00-20260710.json
 References
 ---------------------------------------------------
 
-Fenner, M., M. Crosas, M., J.S. Grethe, D. Kennedy, H. Hermjakob, and others. (2019) 'A data citation roadmap for scholarly data repositories.’ Sci. Data 6. https://doi.org/10.1038/s41597-019-0031-8 
+Fenner, M., M. Crosas, M., J.S. Grethe, D. Kennedy, H. Hermjakob, and others. (2019) 'A data citation roadmap for scholarly data repositories.’ *Sci. Data* 6. https://doi.org/10.1038/s41597-019-0031-8 
 
-Peng, G., M. Wu, R.A. Ringuette, J. Blythe, A. Shepherd, E. Söding, L. Wyborn, E. Wood-Charlson, N.A. Ritchey, M.B. Jones, N. Atkins, M. Abarca, D. Kottmeier, U. Schindler, S.H. Lubkin, and ESIP Data Stewardship Committee. (2026) ‘Advancing Cross-Organizational Interoperability Through Data Stewardship — Machine-Interpretable Crosswalks From Earth Science Organizational Metadata Profiles to Schema.org.’ ESIP Data Stewardship Committee Report. Document ID: ESIP-DSC-002-2026. Version: v01r00-20260724. License: CC-BY 4.0 International. ESIP Zenodo. https://doi.org/10.5281/10.5281/zenodo.18981936
+Peng, G., M. Wu, R.A. Ringuette, J. Blythe, A. Shepherd, E. Söding, L. Wyborn, E. Wood-Charlson, N.A. Ritchey, M.B. Jones, N. Atkins, M. Abarca, D. Kottmeier, U. Schindler, S.H. Lubkin, and ESIP Data Stewardship Committee. (2026) ‘Advancing Cross-Organizational Interoperability Through Data Stewardship — Machine-Interpretable Crosswalks From Earth Science Organizational Metadata Profiles to Schema.org.’ ESIP Data Stewardship Committee Report. Document ID: ESIP-DSC-002-2026. Version: v01r00-20260724. License: CC-BY 4.0 International. *ESIP Zenodo*. https://doi.org/10.5281/10.5281/zenodo.18981936
 
 ---------------------------------------------------
 Earth science organizational metadata profiles 
