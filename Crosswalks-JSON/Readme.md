@@ -4,7 +4,7 @@ Crosswalks in JSON
 This folder contains JSON crosswalks from individual organizational metadata profiles, collected and documented by the ESIP Data Stewardship Committee, to a common reference metadata schema based on Schema.org. The crosswalks cover only the essential dataset metadata for discovery and citation, consisting of the elements defined in Fenner et al. (2019) together with several additional fields identified by Peng et al. (2026).
 
 ---------------------------------------------------
-File Namning Convention:
+File Naming Convention:
 ---------------------------------------------------
 crosswalkType_sourceSystem_destinationSystem_resourceType_version_creationDate.json
 
@@ -21,8 +21,8 @@ resourceType = dataset
 creationDate = Creation date of the JSON crosswalk file (YYYYMMDD)
 
 ---------------------------------------------------
-Versioning Convention: 
----------------------------------------------------
+**Versioning Convention:** 
+
 vVVrRRpPP, where v represents the major version (release), r the revision (minor version), and p the patch level. VV, RR, and PP are two-digit integers (00–99).
 
 *Examples:*
