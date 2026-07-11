@@ -33,8 +33,8 @@ vVVrRRpPP, where v represents the major version (release), r the revision (minor
 * v02r00p00 – Second major release
 
 ---------------------------------------------------
-JSON File Naming Example:
----------------------------------------------------
+**JSON File Naming Example:**
+
 Metadata-Crosswalk_NASA-ESDIS_schemadotorg_dataset_v01r00p00-20260710.json
 
 ---------------------------------------------------
