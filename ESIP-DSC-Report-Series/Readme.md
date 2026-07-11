@@ -2,7 +2,7 @@ ESIP DSC Report Series
 ======================================================
 This folder captures the information on the ESIP Data Stewardship Committee (DSC) report series: Advancing Cross-Organizational Interoperability Through Data Stewardship. All reports are open and freely availabe with a CC-BY 4.0 International license at the ESIP Zenodo community (https://zenodo.org/communities/esip/records).
 
-Key Message of the EISP DSC Report Series
+Key Message of the ESIP DSC Report Series
 -------------------------------------------------------
 Data interoperability is pursued, not through strict uniformity across all organizations, but through clear, machine-actionable descriptions of stewardship practices, semantic meanings, system interfaces, and crosswalks that enable diverse systems to interpret, discover, transform, and use data effectively.
 
