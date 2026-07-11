@@ -11,6 +11,5 @@ Report Information
 
 | Document ID | Title | Version | DOI |
 | :---:  | :--- | :---: | |:--- |
-| ESIP-DSC-001-2026 | Early Insights Into Organizational Stewardship Practices on
-Persistent Identifiers and Rich Metadata | v01r00-20260227 | https://doi.org/10.5281/zenodo.17990422 |
+| ESIP-DSC-001-2026 | Early Insights Into Organizational Stewardship Practices on Persistent Identifiers and Rich Metadata | v01r00-20260227 | https://doi.org/10.5281/zenodo.17990422 |
 | ESIP-DSC-002-2026 | Machine-Interpretable Crosswalks From Earth Science Organizational Metadata Profiles to Schema.org| v01r00-20260227 | https://doi.org/10.5281/10.5281/zenodo.18981936 |
