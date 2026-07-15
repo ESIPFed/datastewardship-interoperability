@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Global Sea Surface Temperature Dataset",
+  "description": "A dataset containing global sea surface temperature measurements.",
+  "identifier": "https://doi.org/10.xxxx/example",
+  "version": "2.1",
+  "keywords": ["ocean", "temperature", "climate"],
+  "datePublished": "2024-05-10",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Jane Doe"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Example Data Center"
+  },
+  "spatialCoverage": {
+      "@type": "Place",
+      "name": "Global",
+      "geo": {
+        "@type": "GeoShape",
+        "box": "-90 -180 90 180"
+      }
+    },
+    "temporalCoverage": "2000-01-01/2023-12-31",
+    "subjectOf": {
+       "@type": "Thing",
+       "name": "Oceans"
+    }, 
+  "provider": {
+    "@type": "Organization",
+    "name": "Earth Science Data Repository"
+  },
+  "isBasedOn": {
+    "@type": "Dataset",
+    "name": "Historical Ocean Temperature Data"
+  },
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "name": "Ocean Temperature Variability Study"
+  }
+}
