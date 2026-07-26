@@ -46,7 +46,7 @@ Fenner, M., M. Crosas, M., J.S. Grethe, D. Kennedy, H. Hermjakob, and others. (2
 Peng, G., M. Wu, R.A. Ringuette, J. Blythe, A. Shepherd, E. Söding, L. Wyborn, E. Wood-Charlson, N.A. Ritchey, M.B. Jones, N. Atkins, M. Abarca, D. Kottmeier, U. Schindler, S.H. Lubkin, and ESIP Data Stewardship Committee. (2026) ‘Advancing Cross-Organizational Interoperability Through Data Stewardship — Machine-Interpretable Crosswalks From Earth Science Organizational Metadata Profiles to Schema.org.’ ESIP Data Stewardship Committee Report. Document ID: ESIP-DSC-002-2026. Version: v01r00-20260724. License: CC-BY 4.0 International. *ESIP Zenodo*. https://doi.org/10.5281/zenodo.18981936
 
 ---------------------------------------------------
-Earth science organizational metadata profiles (incomplete)
+Earth Science Organizational Metadata Profiles (incomplete)
 ---------------------------------------------------
 
 | Organizational Metadata Profile ID | Description |
