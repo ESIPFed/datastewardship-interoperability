@@ -46,7 +46,7 @@ Fenner, M., M. Crosas, M., J.S. Grethe, D. Kennedy, H. Hermjakob, and others. (2
 Peng, G., M. Wu, R.A. Ringuette, J. Blythe, A. Shepherd, E. Söding, L. Wyborn, E. Wood-Charlson, N.A. Ritchey, M.B. Jones, N. Atkins, M. Abarca, D. Kottmeier, U. Schindler, S.H. Lubkin, and ESIP Data Stewardship Committee. (2026) ‘Advancing Cross-Organizational Interoperability Through Data Stewardship — Machine-Interpretable Crosswalks From Earth Science Organizational Metadata Profiles to Schema.org.’ ESIP Data Stewardship Committee Report. Document ID: ESIP-DSC-002-2026. Version: v01r00-20260724. License: CC-BY 4.0 International. *ESIP Zenodo*. https://doi.org/10.5281/zenodo.18981936
 
 ---------------------------------------------------
-Earth Science Organizational Metadata Profiles (incomplete)
+Earth Science Organizational Metadata Profiles
 ---------------------------------------------------
 
 | Organizational Metadata Profile ID | Description |
@@ -55,5 +55,8 @@ Earth Science Organizational Metadata Profiles (incomplete)
 | DataOne | The DataONE federation is a federated network that connects many Earth and environmental data repositories into a single discovery and access system  (https://www.dataone.org/). It currently operates the 10 DataONE hosted repositories with additional 65 DataONE member repositories. It supports variety of community and discipline-specific metadata standards. | 
 | DOE-KBase | The U.S. Department of Energy’s (DOE) Systems Biology Knowledgebase (KBase, www.kbase.us) is an open, collaborative platform that enables researchers, educators, and students to integrate, analyze, and publish biological data across scales – from molecules to ecosystems. KBase Credit Metadata Schema (https://doi.org/10.25982/1984203) was designed to be interoperable with DataCite schema  |
 | NASA-ESDIS | NASA’s Unified Metadata Model for Collections (UMM-C) is an extensible metadata model which is designed to support Earth science data management within NASA’s Common Metadata Repository (CMR) for the Earth Science Data and Information System (ESDIS). UMM-C maintains crosswalks to CMR-supported metadata standards, including ISO 19115-1, 19115-2, ECHO 10 and DIF 10 (https://www.earthdata.nasa.gov/about/esdis/esco/standards-practices/unified-metadata-model) |
-
-
+| NOAA-NCEI| Metadata records documenting environmental data stewarded by NCEI are ISO 19115-2 compliant. Metadata meets federal requirements and follows NOAA policy. |
+| PANGAEA| PANGAEA Data publisher for Earth & Environmental Science is Europe-based, but has an international scope. PANGAEA  provides metadata records in various exchange formats, including ISO 19115/19139, Schema.org, Datacite, etc. (https://wiki.pangaea.de/wiki/Metadata)|
+| SUL-DataWorks| Stanford University Libraries DataWorks Catalog (SUL-DataWorks) is a research data catalog that aims to provide open discovery to data in a way that meets the needs of researchers on campus. It provides metadata records based on the DataCite metadata format. |
+| USGS| USGS focuses on the Earth's natural resources, natural hazards, geology, and ecosystems. Data holdings are managed and serviced across specialized systems and portals. USGS utilizes DCAT.|
+| WIS2| The World Meteorological Organization (WMO) Information System Version 2 (WIS2) is a modernized framework for sharing weather, climate, and water data. The WMO Core Metadata Profile (WCMP) version 2 is an extension of the ISO 19115 and OGC API-Records standards (https://wmo-im.github.io/wcmp2/standard/wcmp2-STABLE.html).|
