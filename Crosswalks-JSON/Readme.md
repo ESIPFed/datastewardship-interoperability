@@ -1,7 +1,7 @@
 Metadata Crosswalks in JSON
 ================================
 
-This folder contains JSON crosswalks from individual organizational metadata profiles, collected and documented by the ESIP Data Stewardship Committee, to a common reference metadata schema based on Schema.org. The crosswalks cover only the essential dataset metadata for discovery and citation, consisting of the elements defined in Fenner et al. (2019) together with several additional fields identified by Peng et al. (2026).
+This folder contains JSON crosswalks from individual organizational metadata profiles, collected and documented by the ESIP Data Stewardship Committee, to Schema.org as the common reference metadata schema. The crosswalks cover only the essential dataset metadata for discovery and citation, consisting of the elements defined in Fenner et al. (2019) together with several additional fields for geospatial data identified by Peng et al. (2026).
 
 ---------------------------------------------------
 File Naming Convention:
