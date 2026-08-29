@@ -1,0 +1,136 @@
+{
+  "crosswalk": {
+  "crosswalk_title": "NOAA-NCEI to Schema.org Crosswalk",
+  "dateCreated": "2026-08-29",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "creator": "Ge Peng",
+  "source_profile_id": "NOAA-NCEI",
+  "source_reference": {
+   "vocabulary": "ISO 19115-2",
+    "type": "Dataset",
+    "type_uri": "https://www.ncei.noaa.gov/sites/default/files/2022-05/AB-GUID-02823_R1_Guidance%20for%20The%20NCEI%20Collection%20Level%20Metadata%20Template%20v1.2.pdf"
+    },
+  "target_reference": { 
+    "vocabulary": "Schema.org",
+    "type": "Dataset",
+    "type_uri": "https://schema.org/Dataset"
+    }
+  },
+  "common_elements": [
+    "Title",
+    "Creator",
+    "Summary /Description",
+    "Identifier",
+    "Version",
+    "Keywords",
+    "Publisher",
+    "Publication Date",
+    "License",
+    "Related Dataset(s)",
+    "Related Publication(s)",
+    "Data Repository /Archive",
+    "Spatial Coverage",
+    "Temporal Coverage"
+  ],
+  "mappings": [
+    {
+      "common_element": "Title",
+      "source_field": "title",
+      "target_field": "name"
+    },
+    {
+      "common_element": "Creator",
+      "source_field": "gmd:CI_ResponsibleParty",
+      "target_field": "creator",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Creator",
+      "source_field": "@codeListValue='author'",
+      "target_field": "creator"
+    },
+    {
+      "common_element": "Summary /Description",
+      "source_field": "abstract",
+      "target_field": "description"
+    },
+    {
+      "common_element": "Identifier",
+      "source_field": "MD_Identifier/gmd:code/gmx:Anchor/@xlink:href[contains(.,'doi.org')]",
+      "target_field": "identifier"
+    },
+    {
+      "common_element": "Version",
+      "source_field": "edition",
+      "target_field": "version"
+    },
+    {
+      "common_element": "Keywords",
+      "source_field": "descriptiveKeywords",
+      "target_field": "keywords"
+    },
+    {
+      "common_element": "Keywords",
+      "source_field": "@codeListValue='theme' [M], 'datacentre' [M], 'place' [M], 'project' [R], 'platform' [R], 'instrument' [R], 'resolution'",
+      "target_field": "keywords"
+    },
+    {
+      "common_element": "Publisher",
+      "source_field": "gmd:CI_ResponsibleParty",
+      "target_field": "publisher",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Publisher",
+      "source_field": "@codeListValue='publisher'",
+      "target_field": "publisher",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Publication Date",
+      "source_field": "gmd:CI_Date",
+      "target_field": "datePublished"
+    },
+    {
+      "common_element": "Publication Date",
+      "source_field": "@codeListValue='publication'",
+      "target_field": "datePublished"
+    },
+    {
+      "common_element": "License",
+      "source_field": "MD_LegalConstraints",
+      "target_field": "license"
+    },
+    {
+      "common_element": "Related Dataset(s)",
+      "source_field": "MD_AggregateInformation [M] for data if applicable",
+      "target_field": [
+        "isBasedOn",
+        "isPartOf",
+        "hasPart",
+        "isRelatedTo"
+    ]
+    },
+    {
+      "common_element": "Related Publication(s)",
+      "source_field": "MD_AggregateInformation [M] for publications if applicable",
+      "target_field": "citation",
+      "target_transformation": "map to ScholarlyArticle"
+    },
+    {
+      "common_element": "Data Repository /Archive",
+      "source_field": "MD_Distributor",
+      "target_field": "provider"
+    },
+    {
+      "common_element": "Spatial Coverage",
+      "source_field": "geographicElement",
+      "target_field": "spatialCoverage"
+    },
+    {
+      "common_element": "Temporal Coverage",
+      "source_field": "temporalElement",
+      "target_field": "temporalCoverage"
+    }
+  ]
+}
