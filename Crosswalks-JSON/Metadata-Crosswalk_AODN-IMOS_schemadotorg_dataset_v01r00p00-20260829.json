@@ -2,7 +2,7 @@
  "crosswalk": {
   "crosswalk_title": "AODN-IMOS to Schema.org Crosswalk",
   "dateCreated": "2026-08-29",
-  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "license": "https://spdx.org/licenses/MIT.html",
   "creator": "Ge Peng",
   "source_profile_id": "AODN-IMOS",
    "source_reference": {
