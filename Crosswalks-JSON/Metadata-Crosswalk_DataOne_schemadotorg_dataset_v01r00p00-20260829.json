@@ -1,0 +1,115 @@
+{
+  "crosswalk": {
+  "crosswalk_title": "DataONE to Schema.org Crosswalk",
+  "dateCreated": "2026-08-29",
+  "license": "https://spdx.org/licenses/MIT.html",
+  "creator": "Ge Peng",
+  "source_profile_id": "DataONE",
+   "source_reference": {
+   "vocabulary": "DataOne",
+    "type": "Dataset",
+    "type_uri": "https://www.dataone.org/"
+    },
+  "target_reference": {
+    "vocabulary": "Schema.org",
+    "type": "Dataset",
+    "type_uri": "https://schema.org/Dataset"
+    }
+  },
+  "common_elements": [
+    "Title",
+    "Creator",
+    "Summary /Description",
+    "Identifier",
+    "Version",
+    "Keywords",
+    "Publisher",
+    "Publication Date",
+    "License",
+    "Related Dataset(s)",
+    "Related Publication(s)",
+    "Data Repository /Archive",
+    "Spatial Coverage",
+    "Temporal Coverage"
+  ],
+  "mappings": [
+    {
+      "common_element": "Title",
+      "source_field": "title",
+      "target_field": "name"
+    },
+    {
+      "common_element": "Creator",
+      "source_field": "origin/investigator",
+      "target_field": "creator",
+       "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Summary /Description",
+      "source_field": "abstract",
+      "target_field": "description"
+    },
+    {
+      "common_element": "Identifier",
+      "source_field": "identifier",
+      "target_field": "identifier"
+    },
+    {
+      "common_element": "Version",
+      "source_field": "obsoletes, obsoletedBy ",
+      "target_field": "isRelatedTo"
+    },
+    {
+      "common_element": "Version",
+      "source_field": "A version chain is established via fields obsoletes/obsoletedBy that are populated by identifiers",
+      "target_field": "version"
+    },
+    {
+      "common_element": "Keywords",
+      "source_field": "keywords [R], annotation",
+      "target_field": "keywords"
+    },
+    {
+      "common_element": "Publisher",
+      "source_field": "authoritativeMemberNode [M], originMemberNode",
+      "target_field": "publisher",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Publication Date",
+      "source_field": "datePublished",
+      "target_field": "datePublished"
+    },
+    {
+      "common_element": "License",
+      "source_field": "licenseDescription [R], licenseName [R], licenseUrl",
+      "target_field": "license"
+    },
+    {
+      "common_element": "Related Dataset(s)",
+      "source_field": "derivedFrom, obsoletes, cites, aggregatedBy",
+      "target_field": "isBasedOn"
+    },
+    {
+      "common_element": "Related Publication(s)",
+      "source_field": "citedBy, usedBy",
+      "target_field": "citation",
+      "target_transformation": "map to ScholarlyArticle"
+    },
+    {
+      "common_element": "Data Repository /Archive",
+      "source_field": "originMemberNode [M], authoritativeMemberNode",
+      "target_field": "provider"
+    },
+    {
+      "common_element": "Spatial Coverage",
+      "source_field": "geographicCoverage (eastBoundCoord, westBoundCoord, northBoundCoord, southBoundCoord)",
+      "target_field": "spatialCoverage"
+    },
+    {
+      "common_element": "Temporal Coverage",
+      "source_field": "temporalCoverage (beginDate, endDate)",
+      "target_field": "temporalCoverage"
+    }
+  ]
+}
