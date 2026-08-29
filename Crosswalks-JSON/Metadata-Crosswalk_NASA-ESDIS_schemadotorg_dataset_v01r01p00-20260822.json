@@ -2,7 +2,7 @@
   "crosswalk": {
   "crosswalk_title": "NASA-ESDIS to Schema.org Crosswalk",
   "dateCreated": "2026-08-22", 
-  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "license": "https://spdx.org/licenses/MIT.html",
   "creator": "Ge Peng",
   "source_profile_id": "NASA-ESDIS",
   "source_reference": {
