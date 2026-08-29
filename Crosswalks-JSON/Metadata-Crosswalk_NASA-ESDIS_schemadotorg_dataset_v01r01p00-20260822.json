@@ -1,0 +1,121 @@
+ { 
+  "crosswalk": {
+  "crosswalk_title": "NASA-ESDIS to Schema.org Crosswalk",
+  "dateCreated": "2026-08-22", 
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "creator": "Ge Peng",
+  "source_profile_id": "NASA-ESDIS",
+  "source_reference": {
+   "vocabulary": "CMR UMM-C",
+    "type": "Dataset",
+    "type_uri": "https://wiki.earthdata.nasa.gov/spaces/CMR/pages/91358888/UMM-C+Schema+Representation"
+    },
+  "target_reference": {
+    "vocabulary": "Schema.org",
+    "type": "Dataset",
+    "type_uri": "https://schema.org/Dataset"
+    }
+  },
+  "common_elements": [
+    "Title",
+    "Creator",
+    "Summary /Description",
+    "Identifier",
+    "Version",
+    "Keywords",
+    "Publisher",
+    "Publication Date",
+    "License",
+    "Related Dataset(s)",
+    "Related Publication(s)",
+    "Data Repository /Archive",
+    "Spatial Coverage",
+    "Temporal Coverage"
+  ],
+  "mappings": [
+    {
+      "common_element": "Title",
+      "description": "Collection title",
+      "source_field": "Entry Title",
+      "target_field": "name"
+    },
+    {
+      "common_element": "Creator",
+      "source_field": "Creator",
+      "source_transformation": "map to CollectionCitation",
+      "target_field": "creator",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Summary /Description",
+      "source_field": "Abstract",
+      "target_field": "description"
+    },
+    {
+      "common_element": "Identifier",
+      "source_field": "DOI",
+      "source_transformation": "map to DOI",
+      "target_field": "identifier"
+    },
+    {
+      "common_element": "Version",
+      "source_field": "Version",
+      "target_field": "version"
+    },
+    {
+      "common_element": "Keywords",
+      "source_field": "ScienceKeywords",
+      "target_field": "keywords"
+    },
+    {
+      "common_element": "Publisher",
+      "source_field": "Publisher",
+      "source_transformation": "map to CollectionCitation",
+      "target_field": "publisher",
+      "target_transformation": "map to Organization or Person"
+    },
+    {
+      "common_element": "Publication Date",
+      "source_field": "ReleaseDate",
+      "source_transformation": "map to CollectionCitation/OnlineResource",
+      "target_field": "datePublished"
+    },
+    {
+      "common_element": "License",
+      "source_field": "UseConstraints",
+      "target_field": "license"
+    },
+    {
+      "common_element": "Related Dataset(s)",
+      "source_field": "DOI",
+      "source_transformation": "map to Associated DOIs",
+      "target_field": [
+        "isBasedOn",
+        "isPartOf",
+        "hasPart",
+        "isRelatedTo"
+    ]
+    },
+    {
+      "common_element": "Related Publication(s)",
+      "source_field": "Publication References",
+      "target_field": "citation",
+      "target_transformation": "map to ScholarlyArticle"
+    },
+    {
+      "common_element": "Data Repository /Archive",
+      "source_field": "DataCenters",
+      "target_field": "provider"
+    },
+    {
+      "common_element": "Spatial Coverage",
+      "source_field": "SpatialExtent",
+      "target_field": "spatialCoverage"
+    },
+    {
+      "common_element": "Temporal Coverage",
+      "source_field": "TemporalExtents",
+      "target_field": "temporalCoverage"
+    }
+  ]
+}
