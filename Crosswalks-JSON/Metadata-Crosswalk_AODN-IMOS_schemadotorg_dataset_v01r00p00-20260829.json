@@ -98,7 +98,8 @@
     {
       "common_element": "Related Publication(s)",
       "source_field": "mri: supplementalInformation",
-      "target_field": "citation"
+      "target_field": "citation",
+      "target_transformation": "map to ScholarlyArticle"
     },
     {
       "common_element": "Data Repository /Archive",
